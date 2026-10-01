@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Le Trung Linh — Ph.D. candidate at IVCL Lab, Sejong University. Research in image restoration, specular highlight removal, and medical image segmentation.">
+  <meta name="theme-color" content="#08695e">
+  <title>Le Trung Linh | Research & Publications</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%2308695e'/%3E%3Cpath d='M12 10v20h17v-5H17V10z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Le Trung Linh home"><span class="monogram">L.</span><span>LE TRUNG LINH</span></a>
+    <nav aria-label="Main navigation"><a href="#publications">Publications</a><a href="#research">Research</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+    <button class="theme-toggle" type="button" aria-label="Use dark theme" aria-pressed="false"><span aria-hidden="true">◐</span></button>
+  </header>
+  <div class="page" id="top">
+    <aside class="profile" aria-label="Researcher profile">
+      <div class="portrait-frame"><img src="img/profile.jpg" alt="Portrait of Le Trung Linh" width="917" height="1180" fetchpriority="high"></div>
+      <p class="eyebrow">COMPUTER VISION RESEARCHER</p>
+      <h1>Le Trung Linh<span class="name-accent">.</span></h1>
+      <p class="role">Ph.D. Candidate</p>
+      <p class="affiliation">IVCL Lab · Sejong University<br>Seoul, South Korea</p>
+      <a class="profile-link" href="https://github.com/letrunglinh2000">GitHub <span aria-hidden="true">↗</span></a>
+      <div class="profile-note"><span class="small-label">RESEARCH FOCUS</span><p>Restoring visual detail.<br>Understanding complex images.</p></div>
+    </aside>
+    <main id="main">
+      <section class="intro" aria-labelledby="intro-title">
+        <p class="eyebrow">RESEARCH / COMPUTER VISION</p>
+        <h2 id="intro-title">Learning to see<br><em>more clearly.</em></h2>
+        <p>I study low-level computer vision, with a focus on image restoration, specular highlight removal, and medical image segmentation.</p>
+        <div class="interest-tags"><span>Image restoration</span><span>State-space models</span><span>Medical imaging</span></div>
+      </section>
+      <section id="publications" aria-labelledby="pub-title">
+        <div class="section-heading"><div><p class="eyebrow">01 / PUBLICATIONS</p><h2 id="pub-title">Publications</h2></div><span class="section-note">Research record</span></div>
+        <div id="publication-controls" class="publication-controls" hidden><label>Search publications<input id="publication-search" type="search" placeholder="Title, author, or topic"></label><label>Year<select id="publication-year"><option value="all">All years</option></select></label></div>
+        <p id="publication-count" class="small-label" role="status" hidden></p>
+        <div id="publication-list"><div class="publication-empty"><span class="document-symbol" aria-hidden="true">≡</span><div><h3>Publication list coming soon</h3><p>In the meantime, explore my current research and open-source work below.</p></div></div></div>
+        <noscript><p>JavaScript is needed to load the publication list. Research summaries and repository links are available below.</p></noscript>
+      </section>
+      <section id="research" aria-labelledby="research-title">
+        <div class="section-heading"><div><p class="eyebrow">02 / CURRENT WORK</p><h2 id="research-title">Research in progress</h2></div></div>
+        <article class="research-item"><div class="item-index">01</div><div><div class="item-meta"><span>SPECULAR HIGHLIGHT REMOVAL</span><span class="status">In preparation</span></div><h3>SpecMamba</h3><p>A unified approach to specular highlight removal, combining a Mamba-based specular prior with a mixture of removal experts.</p><div class="paper-links"><a href="https://github.com/letrunglinh2000/SpecMamba-SHR">Code repository</a><details><summary>Research overview</summary><p>Removing reflections while preserving surface detail. The public repository provides training and inference instructions for aligned specular and clean image pairs.</p></details></div></div></article>
+        <article class="research-item"><div class="item-index">02</div><div><div class="item-meta"><span>IMAGE RESTORATION</span><span class="status">In preparation</span></div><h3>YFormer</h3><p>A Y-shaped transformer using hybrid shift for image restoration.</p><div class="topic-line">Transformers <span>·</span> Low-level vision</div></div></article>
+        <a class="resource" href="https://github.com/letrunglinh2000/Awesome-NextGen-Image-Restoration"><div><span class="small-label">OPEN RESEARCH RESOURCE</span><h3>Awesome Next-Gen Image Restoration</h3><p>A curated collection of image restoration papers and code.</p></div><span class="resource-label">View collection</span></a>
+      </section>
+      <section id="about" aria-labelledby="about-title"><div class="section-heading"><div><p class="eyebrow">03 / ABOUT</p><h2 id="about-title">A little background</h2></div></div><p>I am a Ph.D. candidate at the IVCL Lab, Sejong University, in Seoul. My work explores efficient architectures for restoring degraded images and segmenting structures in medical and biological images.</p><div class="about-grid"><div><h3>Methods</h3><p>State-space models · Transformers<br>Mixture-of-experts</p></div><div><h3>Applications</h3><p>Image restoration · Highlight removal<br>Medical and biological segmentation</p></div></div></section>
+      <section id="contact" class="contact" aria-labelledby="contact-title"><p class="eyebrow">04 / CONNECT</p><h2 id="contact-title">Let's talk research.</h2><p>Interested in image restoration or medical imaging? Find my work and connect through GitHub.</p><a class="contact-link" href="https://github.com/letrunglinh2000">Find me on GitHub</a></section>
+      <footer><span>© 2026 Le Trung Linh</span><span>Seoul, South Korea</span></footer>
+    </main>
+  </div>
+</body>
+</html>
